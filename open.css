@@ -1,0 +1,85 @@
+body {
+  font-family: inter !important;
+}
+.skills {
+  
+  
+}
+
+.online {
+  font-weight: 500;
+  font-family: inter, inter-medium !important;
+}
+.first {
+  background-color: rgb(255, 250, 238) !important;
+}
+.image {
+  max-width: 100%;
+}
+.sec {
+  /* max-width: 100%; */
+  background-color: rgb(253, 251, 224);
+  border-top: solid 8px rgb(255, 213, 0);
+  border-radius: 5px !important;
+  border-left: solid 1px rgb(237, 237, 237);
+  border-right: solid 1px rgb(237, 237, 237);
+  border-bottom: solid 1px rgb(237, 237, 237);
+  
+}
+.sac {
+  background-color: rgb(235, 238, 251);
+  border-top: solid 8px rgb(157, 169, 243);
+  border-radius: 5px !important;
+  border-left: solid 1px rgb(237, 237, 237);
+  border-right: solid 1px rgb(237, 237, 237);
+  border-bottom: solid 1px rgb(237, 237, 237);
+}
+.four {
+ margin-top: -3rem !important;
+  
+}
+.carr1 {
+  background-color: rgb(157, 169, 243);
+}
+.carr2 {
+  background-color: rgb(242, 233, 63);
+}
+.carr3 {
+  background-color: rgb(249, 171, 45);
+}
+li {
+  list-style: none;
+  margin-bottom: 15px;
+  font-weight: 300;
+  font-size: 14px;
+
+}
+.para {
+  font-size: 12px !important;
+  font-weight: 500;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  padding: 0 !important;
+}
+.third {
+  transition: 700ms;
+  &:hover {
+    transform: scale(1.15);
+  }
+}
+div .last li {
+  font-size: 13px !important;
+  
+}
+.navy {
+  border-bottom: 1px solid rgb(224, 224, 224);
+}
+@media (max-width: 768px) {
+  .skills {
+    font-size: 26px;
+  }
+}
